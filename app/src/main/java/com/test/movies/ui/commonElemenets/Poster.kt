@@ -26,5 +26,6 @@ fun Poster(
         error = painterResource(R.drawable.ic_broken_image),
         placeholder = painterResource(R.drawable.loading_img),
         modifier = modifier
+
     )
 }
