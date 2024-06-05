@@ -1,4 +1,4 @@
-package com.test.movies.ui.commonElemenets
+package com.test.movies.ui.commonElements
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -26,6 +26,5 @@ fun Poster(
         error = painterResource(R.drawable.ic_broken_image),
         placeholder = painterResource(R.drawable.loading_img),
         modifier = modifier
-
     )
 }

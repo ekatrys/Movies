@@ -26,7 +26,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.test.movies.R
 import com.test.movies.model.Movie
-import com.test.movies.ui.commonElemenets.Poster
+import com.test.movies.ui.commonElements.Poster
 import com.test.movies.ui.screens.movieDetails.UiState
 import com.test.movies.ui.theme.MoviesTheme
 

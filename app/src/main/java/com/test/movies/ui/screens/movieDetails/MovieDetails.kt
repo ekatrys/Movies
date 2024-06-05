@@ -39,7 +39,7 @@ import androidx.compose.ui.unit.sp
 import com.test.movies.R
 import com.test.movies.model.Actor
 import com.test.movies.model.MovieDetails
-import com.test.movies.ui.commonElemenets.Poster
+import com.test.movies.ui.commonElements.Poster
 import com.test.movies.ui.screens.moviesList.ErrorScreen
 import com.test.movies.ui.screens.moviesList.LoadingScreen
 import kotlin.math.round
