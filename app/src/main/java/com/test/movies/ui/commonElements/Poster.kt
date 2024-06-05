@@ -27,4 +27,5 @@ fun Poster(
         placeholder = painterResource(R.drawable.loading_img),
         modifier = modifier
     )
+
 }
