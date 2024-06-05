@@ -12,7 +12,8 @@ also should include:
 - unit tests 
 
 
-<img src = "https://github.com/ekatrys/Movies/assets/41012647/51ef8e77-0e1e-476c-8af8-dabe05256374" width="150">
-<img src = "https://github.com/ekatrys/Movies/assets/41012647/2dc88648-43d1-42e2-a6f0-f9020c0d118b" width="150">
-<img src = "https://github.com/ekatrys/Movies/assets/41012647/b85a3c2f-4cd4-47f2-88ec-b73e94746006" width="150">
-<img src = "https://github.com/ekatrys/Movies/assets/41012647/1edf8a45-ce85-4ed8-9f5c-2f644ce06d80" width="150">
+<img src = "https://github.com/ekatrys/Movies/assets/41012647/51ef8e77-0e1e-476c-8af8-dabe05256374" width="100">
+<img src = "https://github.com/ekatrys/Movies/assets/41012647/2dc88648-43d1-42e2-a6f0-f9020c0d118b" width="100">
+<img src = "https://github.com/ekatrys/Movies/assets/41012647/b85a3c2f-4cd4-47f2-88ec-b73e94746006" width="100">
+<img src = "https://github.com/ekatrys/Movies/assets/41012647/2de573c6-c9b2-4de2-ad13-b747f71011bf" width="100">
+<img src = "https://github.com/ekatrys/Movies/assets/41012647/1edf8a45-ce85-4ed8-9f5c-2f644ce06d80" width="100">
