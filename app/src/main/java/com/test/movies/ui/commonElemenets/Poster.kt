@@ -21,7 +21,7 @@ fun Poster(
             .data(Constants.BASE_IMAGE_URL + "w300" + posterPath)
             .crossfade(true)
             .build(),
-        contentScale = if (contentScale != null) ContentScale.Crop else ContentScale.Fit,
+        contentScale = contentScale ?: ContentScale.Fit,
         contentDescription = "",
         error = painterResource(R.drawable.ic_broken_image),
         placeholder = painterResource(R.drawable.loading_img),
