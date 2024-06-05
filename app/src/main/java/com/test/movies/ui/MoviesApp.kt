@@ -1,6 +1,7 @@
 package com.test.movies.ui
 
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
@@ -13,15 +14,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
-import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.test.movies.R
-import com.test.movies.ui.screens.HomeScreen
-import com.test.movies.ui.screens.MovieListViewModel
-import okhttp3.WebSocket
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MoviesApp() {
+fun MoviesApp(
+    navController: NavHostController = rememberNavController()
+) {
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
@@ -30,16 +31,14 @@ fun MoviesApp() {
         Surface(
             modifier = Modifier.fillMaxSize()
         ) {
-            val moviesViewModel: MovieListViewModel =
-                viewModel(factory = MovieListViewModel.Factory)
-            HomeScreen(
-                moviesUiState = moviesViewModel.moviesUiState,
-                retryAction = moviesViewModel::getMovies,
-                contentPadding = it,
+            MoviesNavHost(
+                navController,
+                Modifier.padding(it)
             )
         }
     }
 }
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
